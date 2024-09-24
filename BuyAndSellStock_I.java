@@ -26,6 +26,7 @@ public class BuyAndSellStock_I {
      * Think greedy -> consider the lowest possible CP, and the future prices as SP.
      * The profit at each step can update the max profit.
      * <p>
+     * max. diff is possible if we choose the lowest num and max num ahead
      * TC: O(n)
      * SC: O(1)
      *
